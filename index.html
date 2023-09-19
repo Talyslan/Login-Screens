@@ -27,32 +27,35 @@
 
     <main>
         <section id="first">
-            <div>
+            <div class="box">
                 <h1>Login</h1>
-                <div>
+
+                <div class="inputs">
                     <input type="text" placeholder="Username">
                     <input type="password" placeholder="Password">
+                    
+                    <div class="box-remeber-me">
+                        <label for="remember-me">
+                            <input type="checkbox" id="remember-me">
+                            Remember me
+                        </label>
+    
+                        <a href="">Forgot?</a>
+                    </div>
                 </div>
 
-                <div>
-                    <label for="remember-me">
-                        <input type="checkbox" id="remember-me">
-                        Remember me
-                    </label>
-
-                    <a href="">Forgot?</a>
-                </div>
 
                 <button>Login</button>
             </div>
         </section>
 
         <section id="second">
-            <div>
+            <div class="box">
                 <h1>Welcome</h1>
-                <img src="a" alt="Foto de um A">
 
-                <div>
+                <span>A</span>
+
+                <div class="inputs">
                     <input type="email" placeholder="Email">
                     <input type="password" placeholder="Password">
                 </div>
@@ -64,18 +67,18 @@
         </section>
 
         <section id="third">
-            <div>
-                <img src="mountains" alt="Logo da Mountains">
+            <div class="box">
+                <img src="images/mountain.png" alt="Logo da Mountains">
                 <h1>Log In</h1>
                 
-                <div>
+                <div class="inputs">
                     <label for="username">
-                        <img src="username" alt="Username Icon">
+                        <img src="images/username.png" alt="Username Icon">
                         <input type="text" placeholder="Username">
                     </label>
 
                     <label for="password">
-                        <img src="password" alt="Password Icon">
+                        <img src="images/password.png" alt="Password Icon">
                         <input type="password" placeholder="Password">
                     </label>
                 </div>
@@ -92,26 +95,28 @@
         </section>
 
         <section id="fourth">
-            <div>
-                <img src="user" alt="Foto User">
-                <h1>John Doe</h1>
+            <div class="box">
+                <div class="user-img">
+                    <img src="images/person.png" alt="Foto User">
+                    <h1>John Doe</h1>
+                </div>
+
+                <div class="inputs">
+                    <label for="username">
+                        <img src="images/username.png" alt="Username Icon">
+                        <input type="text" placeholder="Username">
+                    </label>
+
+                    <label for="password">
+                        <img src="images/password.png" alt="Password Icon">
+                        <input type="password" placeholder="Password">
+                    </label>
+                </div>
+
+                <button>Login</button>
+
+                <a href="#">Forgot Username / Password?</a>
             </div>
-
-            <div>
-                <label for="username">
-                    <img src="username" alt="Username Icon">
-                    <input type="text" placeholder="Username">
-                </label>
-
-                <label for="password">
-                    <img src="password" alt="Password Icon">
-                    <input type="password" placeholder="Password">
-                </label>
-            </div>
-
-            <button>Login</button>
-
-            <a href="#">Forgot Username / Password?</a>
         </section>
     </main>
 </body>
