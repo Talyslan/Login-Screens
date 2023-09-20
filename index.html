@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Login Screens</title>
 </head>
@@ -56,12 +57,15 @@
 
                 <div class="inputs">
                     <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
+                    <label for="password">
+                        <input type="password" placeholder="Password" id="password">
+                        <img src="./images/VisiblePassword.png" alt="">
+                    </label>
                 </div>
 
                 <button>Login</button>
 
-                <span>Don't have an account? Sign Up</span>
+                <a href="#">Don't have an account? Sign Up</a>
             </div>
         </section>
 
