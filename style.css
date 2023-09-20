@@ -7,7 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 a {
     text-decoration: none
 }
@@ -38,6 +37,7 @@ body {
     align-items: center;
     padding: 64px 32px;
     width: 40%;
+    max-width: 1200px;
 }
  
 .inputs {
@@ -59,6 +59,16 @@ body {
     width: 100%;
 }
 
+.box-remeber-me {
+    font-size: .8em;
+}
+
+.box-remeber-me label {
+    display: flex;
+    gap: 8px;
+    color: #45415D;
+}
+
 img {
     width: 15px;
 }
@@ -70,6 +80,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -94,12 +106,12 @@ nav ul li a:hover {
 /* First Screen */
 #first .box {
     background-color: #FFFFFF;
-    gap: 54px;
+    gap: 44px;
 }
 
 #first .box h1 {
     text-transform: uppercase;
-    color: #3A364E;
+    color: #45415D;
 }
 
 #first .inputs {
@@ -108,7 +120,22 @@ nav ul li a:hover {
 
 #first .inputs input {
     background-color: #E8E8E8;
-    padding: 12px 32px;
+    padding: 16px 24px;
+}
+
+#first .inputs input::placeholder {
+    font-weight: bold;
+}
+
+#first .box button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: #8481F4;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -24px;
 }
 
 /* Second Screen */
