@@ -7,6 +7,7 @@ header {
     justify-content: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 nav {
@@ -115,6 +116,8 @@ nav ul li a:hover {
 #third .box {
     background-image: linear-gradient(#7878F4, #A13BE5);
     gap: 44px;
+    color: #FFFFFF;
+    position: relative;
 }
 
 #third .box > img {
@@ -126,9 +129,88 @@ nav ul li a:hover {
 
 #third .box .inputs img {
     width: 15px;
+    height: 15px;
+    filter: invert(1);
+}
+
+#third .box .inputs input {
+    background-color: transparent;
+}
+
+#third .box .inputs input::placeholder {
+    color: #FFFFFF;
+}
+
+#third .box .inputs label {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 4px;;
+    display: flex;
+    gap: 8px;
+}
+
+#third .box > label {
+    position: absolute;
+    left: 33px;
+    bottom: 190px;
+    font-size: .7em;
+    display: flex;
+    gap: 8px;
+}
+
+#third .box button {
+     width: 50%;
+     padding: 12px 16px;
+     border-radius: 20px;
+     border: none;
+}
+
+#third .box > a {
+    color: #FFFFFF;
 }
 
 /* Fourth Screen */
 #fourth .box {
     background-image: linear-gradient(#4699DB, #3B7CD7);
+    gap: 44px;
+    color: white;
+}
+
+#fourth .box > img {
+    width: 45%;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 6px 6px;
+}
+
+#fourth .box .inputs label {
+    background-color: #f1f1f1;
+    padding: 12px 16px;
+    border-radius: 64px;
+    display: flex;
+    gap: 10px;
+}
+
+#fourth .box .inputs label img {
+    width: 20px;
+    height: 20px;
+    opacity: .7;
+}
+
+#fourth .box .inputs label input {
+    border: none;
+    background-color: transparent;
+}
+
+#fourth .box button {
+    background-color: #323232;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 64px;
+    border: none;
+    color: #FFFFFF;
+}
+
+#fourth .box > a {
+    color: #FFFFFF;
 }
