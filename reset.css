@@ -36,8 +36,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 64px 32px;
-    width: 40%;
+    width: 80%;
     max-width: 400px;
+    box-shadow: 0 0 24px -10px #45415D;
 }
  
 .inputs {
@@ -68,6 +69,12 @@ body {
     display: flex;
     gap: 8px;
     color: #45415D;
+}
+
+button {
+    border: none;
+    width: 100%;
+    color: #fff;
 }
 
 button:hover {
