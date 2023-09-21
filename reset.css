@@ -80,3 +80,9 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+#second input:focus,
+#third input:focus,
+#fourth input:focus {
+    outline: none;
+}

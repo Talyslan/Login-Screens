@@ -32,16 +32,16 @@
                 <h1>Login</h1>
 
                 <div class="inputs">
-                    <input type="text" placeholder="Username">
-                    <input type="password" placeholder="Password">
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
                     
                     <div class="box-remeber-me">
                         <label for="remember-me">
                             <input type="checkbox" id="remember-me">
-                            Remember me
+                            Remember-me
                         </label>
     
-                        <a href="">Forgot?</a>
+                        <a href="#first">Forgot?</a>
                     </div>
                 </div>
 
@@ -56,16 +56,16 @@
                 <span>A</span>
 
                 <div class="inputs">
-                    <input type="email" placeholder="Email">
-                    <label for="password">
-                        <input type="password" placeholder="Password" id="password">
-                        <img src="./images/VisiblePassword.png" alt="">
+                    <input type="email" placeholder="Email" required>
+                    <label for="password" id="visible-img">
+                        <input type="password" placeholder="Password" id="password" required>
+                        <img src="./images/VisiblePassword.png" alt="" id="imgPass">
                     </label>
                 </div>
 
                 <button type="submit">Login</button>
 
-                <a href="#">Don't have an account? Sign Up</a>
+                <a href="#second">Don't have an account? Sign Up</a>
             </form>
         </section>
 
@@ -77,23 +77,24 @@
                 <div class="inputs">
                     <label for="username">
                         <img src="images/username.png" alt="Username Icon">
-                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Username" required>
                     </label>
 
                     <label for="password">
                         <img src="images/password.png" alt="Password Icon">
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" required>
+                    </label>
+                    
+                    <label for="remember">
+                        <input type="checkbox" id="remember">
+                        Remember-me
                     </label>
                 </div>
 
-                <label for="remember-me">
-                    <input type="checkbox" id="remember-me">
-                    Remember-me
-                </label>
 
                 <button type="submit">Login</button>
 
-                <a href="#">Forgot Password?</a>
+                <a href="#third">Forgot Password?</a>
             </form>
         </section>
 
@@ -105,12 +106,12 @@
                 <div class="inputs">
                     <label for="username">
                         <img src="images/username.png" alt="Username Icon">
-                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Username" required>
                     </label>
 
                     <label for="password">
                         <img src="images/password.png" alt="Password Icon">
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" required>
                     </label>
                 </div>
 
@@ -120,5 +121,7 @@
             </form>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
