@@ -13,7 +13,7 @@ A fim de treinar minhas capacidades de realização de designs com CSS, trago la
 ## 📌 Como ver
 
 O projeto está hospedado no próprio GithubPages:
-[Gerador de Cancelamento](https://talyslan.github.io/Login-Screens/)
+[Login Screens](https://talyslan.github.io/Login-Screens/)
 
 
 ## Technologies Used
