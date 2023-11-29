@@ -1,28 +1,42 @@
-/* Configurações inicias */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+:root {
+    --branco: #FFFFFF;
+    --cinza: #E8E8E8;
+    --AzulHeader: #474787;
+    --hover: #bdbdf5;
+    --roxo-escuro: #45415D;
 }
 
-a {
-    text-decoration: none
+/* NavBar */
+header {
+    background-color: var(--AzulHeader);
+    height: 3em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-ul {
-    list-style-type: none;
+header, 
+nav ul {
+    display: flex;
+    align-items: center;
 }
 
-section {
-    height: 100vh;
-    display: grid;
-    place-items: center;
+nav {
+    width: 100%;
 }
 
-body {
-    background-color: #E4E3DE;
+nav ul {
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color:var(--branco); 
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+nav ul li a:hover {
+    color: var(--hover);
 }
 
 .inputs label {
@@ -69,20 +83,4 @@ body {
     display: flex;
     gap: 8px;
     color: #45415D;
-}
-
-button {
-    border: none;
-    width: 100%;
-    color: #fff;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-#second input:focus,
-#third input:focus,
-#fourth input:focus {
-    outline: none;
 }
