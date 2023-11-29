@@ -1,9 +1,9 @@
-<h1 align="center"> Login Screens 🖐️</h1>
+<h1 align="center"> Login Screens 🖥️</h1>
 
-<img src="" alt="Primeira tela" />
-<img src="" alt="Segunda tela" />
-<img src="" alt="Terceira tela" />
-<img src="" alt="Quarta tela" />
+<img height="400" src="https://github.com/Talyslan/Login-Screens/assets/78499700/15189d1d-266b-46f0-8ea6-8137341b0240" alt="Primeira tela" />
+<img height="400" src="https://github.com/Talyslan/Login-Screens/assets/78499700/406d7083-3b5a-4ef4-b2f3-1a1885e4cfdd" alt="Segunda tela" />
+<img height="400" src="https://github.com/Talyslan/Login-Screens/assets/78499700/d7a03261-d0e7-4144-b619-2cd39a7d3385" alt="Terceira tela" />
+<img height="400" src="https://github.com/Talyslan/Login-Screens/assets/78499700/4c829e19-2a77-456e-ba86-7eada6a1e7e1" alt="Quarta tela" />
 
 
 ## 🗿 O Projeto
