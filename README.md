@@ -6,7 +6,7 @@
 <img height="400" src="https://github.com/Talyslan/Login-Screens/assets/78499700/4c829e19-2a77-456e-ba86-7eada6a1e7e1" alt="Quarta tela" />
 
 
-## 🗿 O Projeto
+## 🛸 O Projeto
 
 A fim de treinar minhas capacidades de realização de designs com CSS, trago layouts de telas de login feitas com CSS e HTML puro. Bem, desafiado por mim mesmo e este é o resultado!
 
@@ -16,7 +16,7 @@ O projeto está hospedado no próprio GithubPages:
 [Login Screens](https://talyslan.github.io/Login-Screens/)
 
 
-## Technologies Used
+## 🚀 Technologies Used
 
 A criação deste site utiliza as tecnologias básicas para uma página web:
 
